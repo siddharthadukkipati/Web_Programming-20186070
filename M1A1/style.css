@@ -1,0 +1,8 @@
+body {
+	background-color:  #ebebe0;
+	border-style: solid;
+}
+div class="col-md-9" {
+	border-left: 1px solid black;
+	background-color: red;
+}
