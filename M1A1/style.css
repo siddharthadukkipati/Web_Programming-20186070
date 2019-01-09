@@ -1,8 +1,12 @@
-body {
+.container {
 	background-color:  #ebebe0;
 	border-style: solid;
+	border: 10px solid white;
+	border-radius:10px;
 }
-div class="col-md-9" {
-	border-left: 1px solid black;
-	background-color: red;
+body {
+	background-color:black;
+}
+.col-md-9 {
+	border-left: 10px solid white;
 }
