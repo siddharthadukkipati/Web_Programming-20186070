@@ -1,0 +1,88 @@
+.container {
+	border: 1px solid black;
+}
+.col-md-2 {
+	/*border: 1px solid lightgreen;*/
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 100px;
+}
+.info {
+	border: 1px solid lightgreen;
+	margin-bottom: -20px solid lightgreen;
+	padding-bottom: 190px;
+	padding-top: -50px;
+}
+.pic {
+	border: 1px solid lightgreen;
+}
+.Journey {
+	border-bottom: 1px solid lightgreen;
+}
+.col-md-4{
+	border: 1px solid lightgreen;
+}
+
+.CSP-bottom-right {
+  position: relative;
+  bottom: 12px;
+  right: -240px;
+  color: lightgreen;
+}
+.CS-bottom-right {
+  position: relative;
+  bottom: 12px;
+  right: -245px;
+  color: lightgreen;
+  /*border-bottom: 1px solid lightgreen;*/
+}
+.ADS-bottom-right {
+  position: relative;
+  bottom: 12px;
+  right: -245px;
+  color: lightgreen;
+ /* border-bottom: 1px solid lightgreen;*/
+}
+.ICS-bottom-right {
+  position: relative;
+  bottom: 12px;
+  right: -245px;
+  color: lightgreen;
+ /* border-bottom: 1px solid lightgreen;*/
+}
+.DB-bottom-right {
+  position: relative;
+  bottom: 12px;
+  right: -235px;
+  color: lightgreen;
+ /* border-bottom: 1px solid lightgreen;*/
+}
+.CNF-bottom-right {
+  position: relative;
+  bottom: 12px;
+  right: -245px;
+  color: lightgreen;
+
+}
+/*
+.cspp {
+	margin-right: 2px solid lightgreen;
+}
+.ads {
+	margin-right: 2px solid lightgreen;
+}
+.ics {
+	margin-right: 2px solid lightgreen;
+}
+.cs {
+	margin-right: 2px solid lightgreen;
+}
+.DBMS {
+	margin-right: 2px solid lightgreen;
+}
+.cnf {
+	margin-right: 2px solid lightgreen;
+}*/
+./*img-responsive {
+	opacity: 0.5;
+}*/
