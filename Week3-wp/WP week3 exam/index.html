@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---BOOTSTRAP3--->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!---BOOTSTRAP 4--->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Product Catalog</title>
+</head>
+
+<body>
+	<div class="container well">
+		<center><h1>Product Catalog!!!</h1></center> <br>
+		<div class="row">
+			<div class="col-xs-4"> 
+				<h3>Image of Product</h3><br>
+				<span id="loadImage" ></span>
+
+			</div>
+			<div class="col-xs-8">
+				<!-- <h3>Product Description.</h3> -->
+				<div class="productOverview">
+					<h3 id="pt">Product Title</h3>
+					<p id="pTitle"></p>
+				</div><br><br>
+				<div class="productDescription">
+					<h3 id="pd">Product Description</h3>
+					<p id="pDesc"></p>
+				</div><br><br>
+				<div class="productQuantity">
+					<h3 id="pq">Product Quantity</h3>
+					<p id="pQuan"></p>
+				</div>
+			</div>
+			 <br>
+		</div>
+		<br>
+		<div class="prevNextButton">
+				<button id="prev" class="btn btn-primary" onclick = "disp('prev')"><span class="glyphicon glyphicon-chevron-left"></span></button>
+				<button id="next" class="btn btn-primary" style="float: right;" onclick = "disp('next')"><span class="glyphicon glyphicon-chevron-right"></span></button>
+			</div>
+			<br>
+		<div class="editingButton">
+				<button id="edit" class="btn btn-warning" onclick="edIt()"><span class="glyphicon glyphicon-pencil"></span></button>
+				<button id="edit" class="btn btn-danger" style="float: right;"><span class="glyphicon glyphicon-trash"></span></button>
+			</div>
+	<div id="editForm"  style="display: none;">
+		<form action="/action_page.php" id = "edit">
+			<div>
+				<p><label for="titlen">Title: </label></p>
+				<input type="text" id="titleName" name="titleChange">
+			</div>
+			<div>
+				<p><label for="productDes">Description: </label></p>
+				<textarea id="productDescription" name="description"></textarea>
+			</div>
+			<div>
+				<p><label for="productQuantity">Quantity: </label></p>
+				<input type = "text" id="productQuantity" name="quantity"></input>
+			</div>
+			<br>
+			<input type="button" class="btn btn-default" value="submitForm" id = "submit" onclick="subForm()">
+		</form>
+</div>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
